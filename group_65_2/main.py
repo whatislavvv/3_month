@@ -27,7 +27,7 @@ def main_page(page: ft.Page):
             print(greeting_history)
             history_text.value = f'ИСТОРИЯ ПРИВЕСТВИЙ \n' + ' \n - '.join(greeting_history)
         else:
-            # print('Error')
+            # print('Errorr')
             hello_text.value = 'ОШИБКА: Введите имя'
             hello_text.color = ft.Colors.RED
         page.update()
